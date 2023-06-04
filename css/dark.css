@@ -1,4 +1,5 @@
 :root {
+  --background-image: linear-gradient(0deg,#0c0e0cee 24% ,#030503ee 62% ,#060408ef 84%);
   --bg-color: #292929;
   --hr-color: #F1F1F1;
   --code-color: #F1F1F1;

@@ -29,8 +29,10 @@
       width:80%
   }
 
+
   .column,.columns {
-      margin-left: 0
+      margin-left: 0;
+      flex:90%
   }
 
   .column:first-child,.columns:first-child {
@@ -43,7 +45,7 @@ html {
 }
 
 body {
-  background-color: var(--bg-color);
+  background-image: var(--background-image);
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
