@@ -5,7 +5,7 @@
   text-align: center;
   vertical-align: middle;
   font-size: 18px;
-  width: 300px;
+  width: 80%;
   font-weight: 700;
   line-height: 48px;
   letter-spacing: .1px;
@@ -25,9 +25,16 @@
   height: 20px
 }
 
+.icon2 {
+  padding: 0 8px 3.5px 0;
+  vertical-align: middle;
+  width: 32px;
+  height: 32px
+}
+
 .button.button-default {
   color: #fff;
-  background-color: #0085ff
+  background-color: #13e182
 }
 
 .button.button-discord {

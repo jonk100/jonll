@@ -1,18 +1,20 @@
 .container {
   position: relative;
   width: 100%;
-  max-width: 600px;
+  max-width: 1080px;
   text-align: center;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0px 20px;
   box-sizing: border-box
 }
 
+.row {
+  display: flex
+}
+
 .column {
-  position: center;
-  width: 100%;
-  float: center;
-  box-sizing: border-box
+  flex: 45%;
+  padding:0% 5% 0% 5%;
 }
 
 @media (min-width: 400px) {
@@ -42,10 +44,10 @@ html {
 
 body {
   background-color: var(--bg-color);
-  font-size: 18px;
+  font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-  font-family: "Open Sans",HelveticaNeue,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "SegoeUI",HelveticaNeue,"Helvetica Neue",Helvetica,Arial,sans-serif;
   color: var(--font-color)
 }
 
@@ -69,7 +71,7 @@ h1 {
 }
 
 p {
-  margin-top: 0
+  margin-top: 0;
 }
 
 a {
@@ -136,9 +138,10 @@ hr {
 
 .avatar {
   vertical-align: middle;
-  width: 128px;
-  height: 128px;
-  border-radius: 50%
+  width: 192px;
+  height: 192px;
+  border-radius: 50%;
+  border: 1px solid white
 }
 
 .footer {
